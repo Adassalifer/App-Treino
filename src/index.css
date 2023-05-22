@@ -1,0 +1,118 @@
+body {
+  margin: 20px;
+  padding: 50px;
+  font-family: "https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet";
+  background: linear-gradient(to bottom, #e5deec, #A881D6);
+  background-attachment: fixed;
+  justify-content: center;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+form {
+  background-color: rgb(247, 241, 252);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8B5EBF;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #6C6C6C;
+}
+
+form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 95%;
+  font-size: 16px;
+}
+
+form button {
+  display: block;
+  border: none;
+  background-color: #cbaaf1;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+form button:hover {
+  background-color: #A881D6;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.summary {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.summary h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8B5EBF;
+}
+
+.summary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.summary li {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6C6C6C;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .todo {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .todo {
+    width: 50%;
+  }
+}
