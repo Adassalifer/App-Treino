@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+<h2>Em progresso...</h2>
 
 O frontend de um aplicativo para montar treinos de acordo com o dia da semana teria algumas características importantes, incluindo:
 
@@ -15,5 +16,6 @@ O frontend de um aplicativo para montar treinos de acordo com o dia da semana te
 -Design Atraente: Por fim, o aplicativo deve ter um design atraente e moderno, com uma boa combinação de cores, fontes e imagens para criar uma boa experiência do usuário.
 
 A combinação dessas características vai definir como seria o frontend de um aplicativo para montar treinos de acordo com o dia da semana.
+<p>Disponível em: https://app-treino-87p3.vercel.app/</p>
 
 
